@@ -110,7 +110,7 @@
                                 <action selector="btnRescanPush:" destination="LGX-Vw-h8s" id="yox-5M-XMF"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="LOGOUT" id="icK-qt-K0J">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="LOGOUT" id="icK-qt-K0J">
                             <connections>
                                 <action selector="btnLogoutPush:" destination="LGX-Vw-h8s" id="hEr-wb-AVl"/>
                             </connections>
@@ -836,7 +836,7 @@
         <image name="nav_back" width="19" height="18"/>
         <image name="nav_close" width="16" height="16"/>
         <namedColor name="alabaster_color">
-            <color red="0.85020166028740252" green="0.85020166028740252" blue="0.85020166028740252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="teal_color">
             <color red="0.0" green="0.63137254901960782" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

@@ -24,7 +24,7 @@ class DevicesViewController: UITableViewController {
 
         centralManagerDidUpdateState()
         #warning("remove showLogin() if you do not plan to use the MQTT demo")
-        showLogin()
+        // showLogin()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -261,7 +261,7 @@ extension DevicesViewController {
     }
 
     @IBAction private func btnLogoutPush(_: UIBarButtonItem) {
-        AWSMobileClient.default().signOut()
-        showLogin()
+        // AWSMobileClient.default().signOut()
+        // showLogin()
     }
 }
