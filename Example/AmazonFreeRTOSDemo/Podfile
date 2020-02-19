@@ -4,9 +4,6 @@ target 'AmazonFreeRTOSDemo' do
   use_modular_headers!
   pod 'Alertift'
   pod 'AmazonFreeRTOS', :path => '../../'
-  pod 'AWSAuthUI'
-  pod 'AWSMobileClient'
-  pod 'AWSUserPoolsSignIn'
   pod 'LicensePlist'
   pod 'SwiftFormat/CLI'
   pod 'SwiftLint'

@@ -1,5 +1,4 @@
 import AmazonFreeRTOS
-import AWSMobileClient
 import UIKit
 
 @UIApplicationMain
@@ -20,8 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // AWSDDLog.sharedInstance.logLevel = .all
         // AWSDDLog.add(AWSDDTTYLogger.sharedInstance)
 
-        // Setup the user sign-in with cognito: https://aws-amplify.github.io/docs/ios/authentication#manual-setup
-        AWSServiceManager.default().defaultServiceConfiguration = AWSServiceConfiguration(region: AmazonConstants.AWS.region, credentialsProvider: AWSMobileClient.default())
+        // Setup the user sign-in with cognito:
         return true
     }
 }

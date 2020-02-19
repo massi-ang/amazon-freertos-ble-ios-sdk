@@ -110,15 +110,9 @@
                                 <action selector="btnRescanPush:" destination="LGX-Vw-h8s" id="yox-5M-XMF"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="LOGOUT" id="icK-qt-K0J">
-                            <connections>
-                                <action selector="btnLogoutPush:" destination="LGX-Vw-h8s" id="hEr-wb-AVl"/>
-                            </connections>
-                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <segue destination="uRx-gg-NTV" kind="show" identifier="toNetworkConfigViewController" id="Xir-wo-l5n"/>
-                        <segue destination="brS-Me-h6W" kind="show" identifier="toCustomGattMqttViewController" id="9yI-dN-57F"/>
                         <segue destination="iEC-5Y-Uuk" kind="show" identifier="toMqttProxyViewController" id="9xq-9U-7T2"/>
                     </connections>
                 </tableViewController>
@@ -427,120 +421,6 @@
             </objects>
             <point key="canvasLocation" x="1190" y="173"/>
         </scene>
-        <!--Custom Gatt Mqtt View Controller-->
-        <scene sceneID="mzW-71-SVh">
-            <objects>
-                <viewController storyboardIdentifier="CustomGattMqttViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="brS-Me-h6W" customClass="CustomGattMqttViewController" customModule="AmazonFreeRTOSDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yv5-ov-vko">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8U-hg-BzJ">
-                                <rect key="frame" x="16" y="306.66666666666669" width="382" height="40"/>
-                                <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="0h3-vf-an8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <state key="normal" title="Stop Counter"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="btnStopCounterPush:" destination="brS-Me-h6W" eventType="touchUpInside" id="aNd-Ha-z9V"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2X-fs-jBS">
-                                <rect key="frame" x="16" y="378.66666666666669" width="382" height="40"/>
-                                <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="sPv-Uc-D5F"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <state key="normal" title="Reset Counter"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="btnResetCounterPush:" destination="brS-Me-h6W" eventType="touchUpInside" id="iCs-zj-hRd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3c-UF-xCw">
-                                <rect key="frame" x="16" y="234.66666666666666" width="382" height="39.999999999999972"/>
-                                <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="eol-hw-Gry"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <state key="normal" title="Start Counter"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="btnStartCounterPush:" destination="brS-Me-h6W" eventType="touchUpInside" id="vyU-z1-9tR"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom GATT Service" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oC-gj-ui3">
-                                <rect key="frame" x="16" y="182.33333333333334" width="382" height="20.333333333333343"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <color key="textColor" name="teal_color"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MQTT should now be runing. Click DEBUG to see the log." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5l-Cx-8sQ">
-                                <rect key="frame" x="16" y="107.99999999999999" width="382" height="42.333333333333329"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="mhn-aN-ZU9" firstAttribute="trailing" secondItem="W2X-fs-jBS" secondAttribute="trailing" constant="16" id="4vW-yB-z6k"/>
-                            <constraint firstItem="u5l-Cx-8sQ" firstAttribute="leading" secondItem="mhn-aN-ZU9" secondAttribute="leading" constant="16" id="5Oa-8i-So7"/>
-                            <constraint firstItem="mhn-aN-ZU9" firstAttribute="trailing" secondItem="q8U-hg-BzJ" secondAttribute="trailing" constant="16" id="5RW-cl-pcH"/>
-                            <constraint firstItem="W2X-fs-jBS" firstAttribute="top" secondItem="q8U-hg-BzJ" secondAttribute="bottom" constant="32" id="H2b-gL-doI"/>
-                            <constraint firstItem="u5l-Cx-8sQ" firstAttribute="top" secondItem="mhn-aN-ZU9" secondAttribute="top" constant="20" id="IfF-uY-7iW"/>
-                            <constraint firstItem="8oC-gj-ui3" firstAttribute="top" secondItem="u5l-Cx-8sQ" secondAttribute="bottom" constant="32" id="J57-cW-dUW"/>
-                            <constraint firstItem="q8U-hg-BzJ" firstAttribute="leading" secondItem="mhn-aN-ZU9" secondAttribute="leading" constant="16" id="Mjq-FT-7Qt"/>
-                            <constraint firstItem="u3c-UF-xCw" firstAttribute="leading" secondItem="mhn-aN-ZU9" secondAttribute="leading" constant="16" id="Mpg-bY-bmO"/>
-                            <constraint firstItem="8oC-gj-ui3" firstAttribute="leading" secondItem="mhn-aN-ZU9" secondAttribute="leading" constant="16" id="N6j-gm-Ff6"/>
-                            <constraint firstItem="u3c-UF-xCw" firstAttribute="top" secondItem="8oC-gj-ui3" secondAttribute="bottom" constant="32" id="OcT-5Q-hbg"/>
-                            <constraint firstItem="mhn-aN-ZU9" firstAttribute="trailing" secondItem="u5l-Cx-8sQ" secondAttribute="trailing" constant="16" id="RQC-TE-O2a"/>
-                            <constraint firstItem="mhn-aN-ZU9" firstAttribute="trailing" secondItem="u3c-UF-xCw" secondAttribute="trailing" constant="16" id="blT-wZ-fXe"/>
-                            <constraint firstItem="mhn-aN-ZU9" firstAttribute="trailing" secondItem="8oC-gj-ui3" secondAttribute="trailing" constant="16" id="eze-fK-TB1"/>
-                            <constraint firstItem="W2X-fs-jBS" firstAttribute="leading" secondItem="mhn-aN-ZU9" secondAttribute="leading" constant="16" id="ido-tl-WrR"/>
-                            <constraint firstItem="q8U-hg-BzJ" firstAttribute="top" secondItem="u3c-UF-xCw" secondAttribute="bottom" constant="32" id="t1m-H9-R6A"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="mhn-aN-ZU9"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="rMd-fe-eIX">
-                        <barButtonItem key="leftBarButtonItem" image="nav_back" id="wom-mY-9VT">
-                            <connections>
-                                <action selector="btnBackPush:" destination="brS-Me-h6W" id="dHV-R9-eQ0"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="DEBUG" id="8jA-sZ-ycV">
-                            <connections>
-                                <segue destination="AQ8-Vj-hrS" kind="presentation" modalPresentationStyle="fullScreen" id="D3C-w1-X3r"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="btnResetCounter" destination="W2X-fs-jBS" id="ckq-AX-qpy"/>
-                        <outlet property="btnStartCounter" destination="u3c-UF-xCw" id="CaY-SI-TUX"/>
-                        <outlet property="btnStopCounter" destination="q8U-hg-BzJ" id="ebS-1J-yGU"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XV8-h4-qok" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="21.739130434782609" y="1061.3839285714284"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="iUo-en-BXk">
             <objects>
@@ -843,7 +723,7 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="D3C-w1-X3r"/>
+        <segue reference="eC2-N5-eVr"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" name="teal_color"/>
 </document>

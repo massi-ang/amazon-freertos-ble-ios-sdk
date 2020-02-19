@@ -28,38 +28,6 @@
 		</dict>
 		<dict>
 			<key>File</key>
-			<string>com.amazonaws.AmazonFreeRTOSDemo/AWSAuthCore</string>
-			<key>Title</key>
-			<string>AWSAuthCore</string>
-			<key>Type</key>
-			<string>PSChildPaneSpecifier</string>
-		</dict>
-		<dict>
-			<key>File</key>
-			<string>com.amazonaws.AmazonFreeRTOSDemo/AWSAuthUI</string>
-			<key>Title</key>
-			<string>AWSAuthUI</string>
-			<key>Type</key>
-			<string>PSChildPaneSpecifier</string>
-		</dict>
-		<dict>
-			<key>File</key>
-			<string>com.amazonaws.AmazonFreeRTOSDemo/AWSCognitoIdentityProvider</string>
-			<key>Title</key>
-			<string>AWSCognitoIdentityProvider</string>
-			<key>Type</key>
-			<string>PSChildPaneSpecifier</string>
-		</dict>
-		<dict>
-			<key>File</key>
-			<string>com.amazonaws.AmazonFreeRTOSDemo/AWSCognitoIdentityProviderASF</string>
-			<key>Title</key>
-			<string>AWSCognitoIdentityProviderASF</string>
-			<key>Type</key>
-			<string>PSChildPaneSpecifier</string>
-		</dict>
-		<dict>
-			<key>File</key>
 			<string>com.amazonaws.AmazonFreeRTOSDemo/AWSCore</string>
 			<key>Title</key>
 			<string>AWSCore</string>
@@ -71,22 +39,6 @@
 			<string>com.amazonaws.AmazonFreeRTOSDemo/AWSIoT</string>
 			<key>Title</key>
 			<string>AWSIoT</string>
-			<key>Type</key>
-			<string>PSChildPaneSpecifier</string>
-		</dict>
-		<dict>
-			<key>File</key>
-			<string>com.amazonaws.AmazonFreeRTOSDemo/AWSMobileClient</string>
-			<key>Title</key>
-			<string>AWSMobileClient</string>
-			<key>Type</key>
-			<string>PSChildPaneSpecifier</string>
-		</dict>
-		<dict>
-			<key>File</key>
-			<string>com.amazonaws.AmazonFreeRTOSDemo/AWSUserPoolsSignIn</string>
-			<key>Title</key>
-			<string>AWSUserPoolsSignIn</string>
 			<key>Type</key>
 			<string>PSChildPaneSpecifier</string>
 		</dict>
