@@ -82,8 +82,8 @@ extension DevicesViewController {
         }
         let device = Array(AmazonFreeRTOSManager.shared.devices.values)[indexPath.row]
 
-        #warning("the GAP name (peripheral.name) is cached on iOS and refreshes on connect so we use advertisementData name to get the latest.")
-        deviceCell.labDeviceName.text = device.advertisementData?["kCBAdvDataLocalName"] as? String ?? device.peripheral.name
+        // the GAP name (peripheral.name) is cached on iOS and does not refreshes on connect 
+        deviceCell.labDeviceName.text = device.peripheral.name
         // iOS use generated identifier, it will be different on other devices.
         deviceCell.labDeviceIdentifier.text = device.peripheral.identifier.uuidString
         deviceCell.labDeviceRSSI.text = device.RSSI?.stringValue ?? NSLocalizedString("N/A", comment: String())
