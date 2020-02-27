@@ -12,6 +12,7 @@ PODS:
 DEPENDENCIES:
   - Alertift
   - AmazonFreeRTOS (from `../../`)
+  - AWSIoT
   - LicensePlist
   - SwiftFormat/CLI
   - SwiftLint
@@ -38,6 +39,6 @@ SPEC CHECKSUMS:
   SwiftFormat: 53968b5cc5d466727e796f789fa9be6c38da34cb
   SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
 
-PODFILE CHECKSUM: ba5eb70daec1f99ac80eea10248c6b597ff4bbc5
+PODFILE CHECKSUM: a0588e4188ee704bc1b7819af3e25aef24a9e67a
 
 COCOAPODS: 1.8.4

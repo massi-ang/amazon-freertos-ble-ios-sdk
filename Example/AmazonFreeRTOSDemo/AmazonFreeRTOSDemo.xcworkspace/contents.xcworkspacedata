@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:AmazonFreeRTOSDemo.xcodeproj">
+      location = "group:/Users/angmas/Projects/amazon-freertos-ble-ios-sdk/Example/AmazonFreeRTOSDemo/BLEWifiProvisioning.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

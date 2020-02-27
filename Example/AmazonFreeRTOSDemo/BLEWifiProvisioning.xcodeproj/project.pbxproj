@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,9 +22,9 @@
 		69E6BF2D1662307221059A53293D4E22 /* AmazonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073341EA2D5E93DAB8453B7A26E223C /* AmazonTextField.swift */; };
 		6A537528276AD68635BFD6EC0BDE4758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7A63249FA526071688A928A61A258A /* Main.storyboard */; };
 		A4D3FC9DEAD3BEE4D59DCB63269A807D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5F83A1105853B3CC07BEFC4C450C3 /* AppDelegate.swift */; };
-		B024957D78DB13EB1517309D /* libPods-AmazonFreeRTOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F00F75B4BC67D33187EDA46 /* libPods-AmazonFreeRTOSDemo.a */; };
 		C41B2BAC63346EC6ADCF0F1020604CF2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1153B8E39C5FACD77845D89841D7A54A /* Colors.xcassets */; };
 		C4354DB53C7207D8D3E95DA7B0E64985 /* AmazonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0DC2E5B235A2F20A025E75F5E16E /* AmazonConstants.swift */; };
+		CAAD46396F28C0BC034E67B4 /* Pods_BLEWifiProvisioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488D92F3F6E2AAEE7EEF0575 /* Pods_BLEWifiProvisioning.framework */; };
 		CD4EE3D553D10CD4CFD438B4CED93305 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893E35DA1A01C14DD53306375E56C4D /* DebugViewController.swift */; };
 		EB3FFA23062C5A72F748BAB356284A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F950CC86CEB778FAFE75CA417D3B1A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -34,19 +34,21 @@
 		16402AC7CF431816CBB9FDF8ED03639E /* UIViewController+Amazon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Amazon.swift"; sourceTree = "<group>"; };
 		1ECEFBA9B880D2BDAC4B02920300581C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2075A45238BA0934245D4E9BA7E0DDDA /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
-		2F00F75B4BC67D33187EDA46 /* libPods-AmazonFreeRTOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmazonFreeRTOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3C204B5F1E4D79CA85AD9F1846EC8A /* NetworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCell.swift; sourceTree = "<group>"; };
 		391EF96B9AAE883F36750E8FC7318815 /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
 		44DD59836EA6E0D324D36F086F0C8A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		488D92F3F6E2AAEE7EEF0575 /* Pods_BLEWifiProvisioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLEWifiProvisioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4893E35DA1A01C14DD53306375E56C4D /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
 		5329FFBB03FEC176C9EF64986D0B5B9B /* Pods-AmazonFreeRTOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonFreeRTOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonFreeRTOSDemo/Pods-AmazonFreeRTOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		53B1D368EBB170A785AE67C6 /* Pods-BLEWifiProvisioning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEWifiProvisioning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLEWifiProvisioning/Pods-BLEWifiProvisioning.debug.xcconfig"; sourceTree = "<group>"; };
 		5A77ED16DABA7E97CC8CC860E8832CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D4A83BDF13A8E46CC5B39254AF975C9 /* AmazonFreeRTOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonFreeRTOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4A83BDF13A8E46CC5B39254AF975C9 /* BLE Wifi Provisioning for freeRTOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE Wifi Provisioning for freeRTOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BEB0DC2E5B235A2F20A025E75F5E16E /* AmazonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonConstants.swift; sourceTree = "<group>"; };
 		79E5F83A1105853B3CC07BEFC4C450C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F950CC86CEB778FAFE75CA417D3B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98FE53C6F659FBE52AD3A99FDCE48AA6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		A67DACC68A170F3A8FFC2D87C11838A3 /* NetworkConfigAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfigAddViewController.swift; sourceTree = "<group>"; };
+		AD82BE6ED59B07A865F702CD /* Pods-BLEWifiProvisioning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEWifiProvisioning.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLEWifiProvisioning/Pods-BLEWifiProvisioning.release.xcconfig"; sourceTree = "<group>"; };
 		AE8A2D7355B9B9B02A7CC61697114432 /* NetworkConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfigViewController.swift; sourceTree = "<group>"; };
 		BB49558FC3CE1728EDD7A627EC904498 /* UITableView+Amazon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Amazon.swift"; sourceTree = "<group>"; };
 		C073341EA2D5E93DAB8453B7A26E223C /* AmazonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonTextField.swift; sourceTree = "<group>"; };
@@ -61,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B024957D78DB13EB1517309D /* libPods-AmazonFreeRTOSDemo.a in Frameworks */,
+				CAAD46396F28C0BC034E67B4 /* Pods_BLEWifiProvisioning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +101,7 @@
 		7EF89D6BCE2A2832F53598077F0EAA71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D4A83BDF13A8E46CC5B39254AF975C9 /* AmazonFreeRTOSDemo.app */,
+				5D4A83BDF13A8E46CC5B39254AF975C9 /* BLE Wifi Provisioning for freeRTOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +109,7 @@
 		91092E94009E37A6D5DB4C89FADA0050 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F00F75B4BC67D33187EDA46 /* libPods-AmazonFreeRTOSDemo.a */,
+				488D92F3F6E2AAEE7EEF0575 /* Pods_BLEWifiProvisioning.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +176,8 @@
 			children = (
 				5329FFBB03FEC176C9EF64986D0B5B9B /* Pods-AmazonFreeRTOSDemo.debug.xcconfig */,
 				C23F7DD2F9C4E040B67BE0D3360C6C56 /* Pods-AmazonFreeRTOSDemo.release.xcconfig */,
+				53B1D368EBB170A785AE67C6 /* Pods-BLEWifiProvisioning.debug.xcconfig */,
+				AD82BE6ED59B07A865F702CD /* Pods-BLEWifiProvisioning.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -181,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5E36D6A570E3CFC166C94490FD51273 /* AmazonFreeRTOSDemo */ = {
+		A5E36D6A570E3CFC166C94490FD51273 /* BLEWifiProvisioning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC25152A1300A68875043089E20C0C5D /* Build configuration list for PBXNativeTarget "AmazonFreeRTOSDemo" */;
+			buildConfigurationList = CC25152A1300A68875043089E20C0C5D /* Build configuration list for PBXNativeTarget "BLEWifiProvisioning" */;
 			buildPhases = (
 				4760D41607C0392C76C152F1E5597185 /* [CP] Check Pods Manifest.lock */,
 				5008374BB752F972576E3E262A4CEB7E /* [AMAZON] License Plist */,
@@ -192,14 +196,15 @@
 				44FE3162D60B4B0EC288ED861AF55086 /* Sources */,
 				4EDFC3E1CB8F589110D07E51188B6805 /* Frameworks */,
 				520416C06234CFC5DA4612A94524D118 /* Resources */,
+				5CA0E924252BE5DB1260D55B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AmazonFreeRTOSDemo;
+			name = BLEWifiProvisioning;
 			productName = FreeROTSDemo;
-			productReference = 5D4A83BDF13A8E46CC5B39254AF975C9 /* AmazonFreeRTOSDemo.app */;
+			productReference = 5D4A83BDF13A8E46CC5B39254AF975C9 /* BLE Wifi Provisioning for freeRTOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +215,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "Amazon Web Services, Inc.";
+				ORGANIZATIONNAME = bitinfiniti;
 				TargetAttributes = {
 					A5E36D6A570E3CFC166C94490FD51273 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -223,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C0364AFEABFE93CE5793AC4A9F031BDD /* Build configuration list for PBXProject "AmazonFreeRTOSDemo" */;
+			buildConfigurationList = C0364AFEABFE93CE5793AC4A9F031BDD /* Build configuration list for PBXProject "BLEWifiProvisioning" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,7 +241,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5E36D6A570E3CFC166C94490FD51273 /* AmazonFreeRTOSDemo */,
+				A5E36D6A570E3CFC166C94490FD51273 /* BLEWifiProvisioning */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +273,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AmazonFreeRTOSDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BLEWifiProvisioning-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -288,6 +293,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Scripts/license-plist.sh\"\n";
+		};
+		5CA0E924252BE5DB1260D55B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLEWifiProvisioning/Pods-BLEWifiProvisioning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLEWifiProvisioning/Pods-BLEWifiProvisioning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLEWifiProvisioning/Pods-BLEWifiProvisioning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		AEB6C8F30DA7EE9C7712713F330CFADC /* [AMAZON] Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -365,10 +387,11 @@
 /* Begin XCBuildConfiguration section */
 		0DA1F1DD8316DA493779F9987ADF4C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5329FFBB03FEC176C9EF64986D0B5B9B /* Pods-AmazonFreeRTOSDemo.debug.xcconfig */;
+			baseConfigurationReference = 53B1D368EBB170A785AE67C6 /* Pods-BLEWifiProvisioning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HUH7APFY44;
 				INFOPLIST_FILE = "$(SRCROOT)/AmazonFreeRTOSDemo/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -376,8 +399,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AmazonFreeRTOSDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitinfiniti.BLEWiFiProvisioning;
+				PRODUCT_NAME = "BLE Wifi Provisioning for freeRTOS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,10 +470,11 @@
 		};
 		1F4184BEDBD23F839678084CF0195AF5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C23F7DD2F9C4E040B67BE0D3360C6C56 /* Pods-AmazonFreeRTOSDemo.release.xcconfig */;
+			baseConfigurationReference = AD82BE6ED59B07A865F702CD /* Pods-BLEWifiProvisioning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HUH7APFY44;
 				INFOPLIST_FILE = "$(SRCROOT)/AmazonFreeRTOSDemo/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -457,8 +482,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AmazonFreeRTOSDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitinfiniti.BLEWiFiProvisioning;
+				PRODUCT_NAME = "BLE Wifi Provisioning for freeRTOS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -534,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0364AFEABFE93CE5793AC4A9F031BDD /* Build configuration list for PBXProject "AmazonFreeRTOSDemo" */ = {
+		C0364AFEABFE93CE5793AC4A9F031BDD /* Build configuration list for PBXProject "BLEWifiProvisioning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A4050D0C286DD56CDDD31EF3647E74C /* Debug */,
@@ -543,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC25152A1300A68875043089E20C0C5D /* Build configuration list for PBXNativeTarget "AmazonFreeRTOSDemo" */ = {
+		CC25152A1300A68875043089E20C0C5D /* Build configuration list for PBXNativeTarget "BLEWifiProvisioning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DA1F1DD8316DA493779F9987ADF4C9A /* Debug */,

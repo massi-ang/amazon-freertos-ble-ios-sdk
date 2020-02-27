@@ -15,9 +15,9 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "A5E36D6A570E3CFC166C94490FD51273"
-                     BuildableName = "AmazonFreeRTOSDemo.app"
-                     BlueprintName = "AmazonFreeRTOSDemo"
-                     ReferencedContainer = "container:AmazonFreeRTOSDemo.xcodeproj">
+                     BuildableName = "BLE Wifi Provisioning for freeRTOS.app"
+                     BlueprintName = "BLEWifiProvisioning"
+                     ReferencedContainer = "container:BLEWifiProvisioning.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5E36D6A570E3CFC166C94490FD51273"
-               BuildableName = "AmazonFreeRTOSDemo.app"
-               BlueprintName = "AmazonFreeRTOSDemo"
-               ReferencedContainer = "container:AmazonFreeRTOSDemo.xcodeproj">
+               BuildableName = "BLE Wifi Provisioning for freeRTOS.app"
+               BlueprintName = "BLEWifiProvisioning"
+               ReferencedContainer = "container:BLEWifiProvisioning.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,19 +45,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A5E36D6A570E3CFC166C94490FD51273"
-            BuildableName = "AmazonFreeRTOSDemo.app"
-            BlueprintName = "AmazonFreeRTOSDemo"
-            ReferencedContainer = "container:AmazonFreeRTOSDemo.xcodeproj">
+            BuildableName = "BLE Wifi Provisioning for freeRTOS.app"
+            BlueprintName = "BLEWifiProvisioning"
+            ReferencedContainer = "container:BLEWifiProvisioning.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -74,13 +72,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A5E36D6A570E3CFC166C94490FD51273"
-            BuildableName = "AmazonFreeRTOSDemo.app"
-            BlueprintName = "AmazonFreeRTOSDemo"
-            ReferencedContainer = "container:AmazonFreeRTOSDemo.xcodeproj">
+            BuildableName = "BLE Wifi Provisioning for freeRTOS.app"
+            BlueprintName = "BLEWifiProvisioning"
+            ReferencedContainer = "container:BLEWifiProvisioning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -93,9 +89,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A5E36D6A570E3CFC166C94490FD51273"
-            BuildableName = "AmazonFreeRTOSDemo.app"
-            BlueprintName = "AmazonFreeRTOSDemo"
-            ReferencedContainer = "container:AmazonFreeRTOSDemo.xcodeproj">
+            BuildableName = "BLE Wifi Provisioning for freeRTOS.app"
+            BlueprintName = "BLEWifiProvisioning"
+            ReferencedContainer = "container:BLEWifiProvisioning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

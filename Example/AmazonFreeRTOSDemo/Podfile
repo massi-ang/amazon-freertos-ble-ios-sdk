@@ -1,10 +1,12 @@
 platform :ios, '11.0'
-#use_frameworks!
-target 'AmazonFreeRTOSDemo' do
-  use_modular_headers!
+use_frameworks!
+target 'BLEWifiProvisioning' do
+  #use_modular_headers!
   pod 'Alertift'
   pod 'AmazonFreeRTOS', :path => '../../'
+  pod 'AWSIoT'
   pod 'LicensePlist'
   pod 'SwiftFormat/CLI'
   pod 'SwiftLint'
 end
+

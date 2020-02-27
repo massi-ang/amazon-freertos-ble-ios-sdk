@@ -12,13 +12,13 @@
         <!--Devices-->
         <scene sceneID="dwh-ih-4cX">
             <objects>
-                <tableViewController storyboardIdentifier="DevicesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LGX-Vw-h8s" customClass="DevicesViewController" customModule="AmazonFreeRTOSDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="DevicesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LGX-Vw-h8s" customClass="DevicesViewController" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8eG-KU-HpG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DeviceCell" rowHeight="105" id="PMe-Er-1Vd" customClass="DeviceCell" customModule="AmazonFreeRTOSDemo" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DeviceCell" rowHeight="105" id="PMe-Er-1Vd" customClass="DeviceCell" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PMe-Er-1Vd" id="rVg-2A-k8Q">
@@ -123,7 +123,7 @@
         <!--Mqtt Proxy View Controller-->
         <scene sceneID="m5l-JD-wBJ">
             <objects>
-                <viewController storyboardIdentifier="MqttProxyViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iEC-5Y-Uuk" customClass="MqttProxyViewController" customModule="AmazonFreeRTOSDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MqttProxyViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iEC-5Y-Uuk" customClass="MqttProxyViewController" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jl1-On-wzt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,7 +163,7 @@
         <!--Network Config View Controller-->
         <scene sceneID="9Sc-oq-qTy">
             <objects>
-                <tableViewController storyboardIdentifier="NetworkConfigViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uRx-gg-NTV" customClass="NetworkConfigViewController" customModule="AmazonFreeRTOSDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="NetworkConfigViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uRx-gg-NTV" customClass="NetworkConfigViewController" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sRT-1S-X3L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -218,7 +218,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NetworkCell" rowHeight="143" id="9mm-Yo-8S2" customClass="NetworkCell" customModule="AmazonFreeRTOSDemo" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NetworkCell" rowHeight="143" id="9mm-Yo-8S2" customClass="NetworkCell" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="156" width="414" height="143"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9mm-Yo-8S2" id="yzz-Hw-BXB">
@@ -309,7 +309,7 @@
                                     <outlet property="labWifiSecurity" destination="xZs-qO-Q0o" id="pkn-1J-hS1"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SectionHeaderCell" rowHeight="112" id="5GZ-IO-qvf" customClass="SectionHeaderCell" customModule="AmazonFreeRTOSDemo" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SectionHeaderCell" rowHeight="112" id="5GZ-IO-qvf" customClass="SectionHeaderCell" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="299" width="414" height="112"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5GZ-IO-qvf" id="zMS-lB-JME">
@@ -442,7 +442,7 @@
         <!--Debug-->
         <scene sceneID="fwu-Vz-Ryg">
             <objects>
-                <viewController storyboardIdentifier="DebugViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zfb-Ej-wui" customClass="DebugViewController" customModule="AmazonFreeRTOSDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DebugViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zfb-Ej-wui" customClass="DebugViewController" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GdD-go-UNF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -505,7 +505,7 @@
         <!--Add Network-->
         <scene sceneID="Z4u-DN-Xfp">
             <objects>
-                <viewController storyboardIdentifier="NetworkConfigAddViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1HI-dH-gmw" customClass="NetworkConfigAddViewController" customModule="AmazonFreeRTOSDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NetworkConfigAddViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1HI-dH-gmw" customClass="NetworkConfigAddViewController" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rvn-Mb-BcM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -519,7 +519,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="She-7V-mrf">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="110.33333333333333"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NBR-dQ-kp1" customClass="AmazonTextField" customModule="AmazonFreeRTOSDemo" customModuleProvider="target">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NBR-dQ-kp1" customClass="AmazonTextField" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target">
                                                         <rect key="frame" x="16" y="44.333333333333343" width="382" height="50"/>
                                                         <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -558,7 +558,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fyc-hk-8UT">
                                                 <rect key="frame" x="0.0" y="110.33333333333334" width="414" height="108"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hDT-nB-G5x" customClass="AmazonTextField" customModule="AmazonFreeRTOSDemo" customModuleProvider="target">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hDT-nB-G5x" customClass="AmazonTextField" customModule="BLE_Wifi_Provisioning_for_freeRTOS" customModuleProvider="target">
                                                         <rect key="frame" x="16" y="42" width="382" height="50"/>
                                                         <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
